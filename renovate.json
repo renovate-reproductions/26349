@@ -4,11 +4,11 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "matchDatasources": "flutter-version",
+      "matchPackageNames": "dart",
       "versioning": "npm"
     },
     {
-      "matchDatasources": "dart-version",
+      "matchPackageNames": "flutter",
       "versioning": "npm"
     }
   ]
