@@ -1,15 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":semanticCommits"],
-  "rangeStrategy": "bump",
-  "packageRules": [
-    {
-      "matchPackageNames": "dart",
-      "versioning": "npm"
-    },
-    {
-      "matchPackageNames": "flutter",
-      "versioning": "npm"
-    }
-  ]
+  "rangeStrategy": "bump"
 }
